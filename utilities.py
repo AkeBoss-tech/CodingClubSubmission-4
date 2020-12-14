@@ -128,7 +128,12 @@ class player:
         message = ""
         a = bigLetter.renderText("Escape the Desert")
         message += a
-        message += f"Your death location was {self.currentPosition}"
+        if self.alive:
+            message += bigLetter.renderText("YOU WON")
+        else:
+            message += bigLetter.renderText("YOU LOST")
+            
+        message += f"Your final location was {self.currentPosition}"
 
         message += "\nThese things are in your inventory."
         for i in self.inventory:
@@ -736,4 +741,6 @@ def coolSideFillingBar(num, title):
     sidebar += " points"
 
     print(sidebar)
+
+
 

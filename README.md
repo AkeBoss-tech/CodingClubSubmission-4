@@ -20,7 +20,9 @@ pip install pyfiglet
 
 # Links
 [Google doc link](https://docs.google.com/document/d/1Q_8I9zWTa40tC4dqrwd1KYHxno8RGYaJXIWgm24sXkc/edit?usp=sharing)
+
 [Repl.it Link](https://repl.it/@AkeBoss/CodingClubSubmission4)
+
 [GitHub Link](https://github.com/AkeBoss-tech/CodingClubSubmission-4) 
 
 Don't steal my code.
